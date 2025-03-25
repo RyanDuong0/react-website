@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Main from './components/Main.js';
+import { ChakraProvider, ColorModeScript, extendTheme } from '@chakra-ui/react';
+
+// Ensure Chakra UI supports dark mode
+const theme = extendTheme({
+  config: {
+    initialColorMode: 'light', // or 'dark' if you want default dark mode
+    useSystemColorMode: false,
+  },
+});
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ChakraProvider theme={theme}>
+      <ColorModeScript initialColorMode={theme.config.initialColorMode} />
+      <Main />
+    </ChakraProvider>
   );
 }
 
