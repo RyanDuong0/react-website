@@ -5,8 +5,7 @@ import { useEffect, useState } from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 
-
-function Posts(){
+function Posts({darkMode}){
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
@@ -24,8 +23,8 @@ function Posts(){
             className="flex-column"
             style={{
               width: "100%",
-              backgroundColor: "#1a1a2e",
-              color: "white",
+              backgroundColor: darkMode ? "#1a1a2e" : "#ffffff",
+              color: darkMode ? "#dadff7" : "#000000",
               border: "none"
             }}
           >

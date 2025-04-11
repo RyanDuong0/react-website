@@ -17,10 +17,10 @@ function WelcomeContent() {
 
       {/* Welcome Message */}
       <Col md={9} className="text-start">
-        <h1 className="display-6" style={{ fontSize: "2.5rem" }}>
+        <h1 className="display-6" style={{ fontSize: "2.5rem"}}>
           Welcome to Ryan Duong's Website
         </h1>
-        <h3 className="display-6" style={{ fontSize: "1.5rem" }}>
+        <h3 className="display-6" style={{ fontSize: "1.5rem"}}>
           Aspiring Software Engineer from the UK
         </h3>
       </Col>

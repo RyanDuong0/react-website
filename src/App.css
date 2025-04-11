@@ -1,9 +1,64 @@
+/* Ensure the entire body takes up the full height of the viewport */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply the max-width and centering to the #root */
 #root {
   max-width: 1280px;
-  margin: 0 auto;
+  margin: 0 auto; /* Center horizontally */
   padding: 2rem;
   text-align: center;
 }
-body{
-  background-color: #000022;
+
+.dark-mode{
+  background-color: #061A40;
+  color: #dadff7;
+}
+.light-mode{
+  background-color: #ffffff;
+  color: black;
+}
+
+/* Navbar background color */
+.navbar-custom-light {
+  background-color: #ffffff;
+  color: #000000;
+}
+.navbar-custom-light .navbar-brand,
+.navbar-custom-light .nav-link {
+  color: #000000; /* Navbar text color for light mode */
+}
+.navbar-custom-light .navbar-brand:hover,
+.navbar-custom-light .nav-link:hover {
+  color: #555555; /* Hover color */
+}
+
+.navbar-custom-dark {
+  background-color: #061A40;
+}
+.navbar-custom-dark .navbar-brand,
+.navbar-custom-dark .nav-link {
+  color: #ffffff; /* Navbar text color for dark mode */
+}
+
+.navbar-custom-dark .navbar-brand:hover,
+.navbar-custom-dark .nav-link:hover {
+  color: #cccccc; /* Hover color */
+}
+
+.floating-button{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  z-index: 1000; /* stays above all elements */
+  padding: 10px 20px;
+  border-radius: 50px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+  font-size: 16px;
+}
+.floating-button:hover{
+  box-shadow: 0px 6px 8px rgba(0,0,0,0.2);
 }
