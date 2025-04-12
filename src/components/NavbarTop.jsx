@@ -18,7 +18,7 @@ function NavbarTop({ darkMode }) {
             <Nav.Link href="#link">About Me</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
             <NavDropdown title="Links" id="basic-nav-dropdown">
-              <NavDropdown.Item href="https://www.linkedin.com/in/ryan-duong-97b960328/">LinkedIn&nbsp;<i class="bi bi-li               nkedin"></i></NavDropdown.Item>
+              <NavDropdown.Item href="https://www.linkedin.com/in/ryan-duong-97b960328/">LinkedIn&nbsp;<i class="bi bi-linkedin"></i></NavDropdown.Item>
               <NavDropdown.Item href="https://github.com/RyanDuong0">GitHub&nbsp;<i class="bi bi-github"></i></NavDropdown.Item>
             </NavDropdown>
           </Nav>

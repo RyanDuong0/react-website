@@ -20,12 +20,10 @@ function Posts({darkMode}){
       {posts.map((post, index) => (
         <Col md={4} key={index} className="d-flex align-items-stretch mb-4">
           <Card
-            className="flex-column"
+            className={`flex-column ${darkMode ? "card-dark" : "card-light"}`}
             style={{
               width: "100%",
-              backgroundColor: darkMode ? "#1a1a2e" : "#ffffff",
-              color: darkMode ? "#dadff7" : "#000000",
-              border: "none"
+              transform: "scale(1)",
             }}
           >
             <Card.Img
