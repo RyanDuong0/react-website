@@ -1,13 +1,14 @@
 import "./App.css";
-import NavbarTop from "./components/NavbarTop.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Container from "react-bootstrap/Container";
-import Button from "react-bootstrap/Button";
-import WelcomeContent from "./components/WelcomeContent.jsx";
-import HomeContent from "./components/HomeContent.jsx";
-import Posts from "./components/Posts.jsx";
 import {useState,useEffect} from "react";
 import useLocalStorage from "use-local-storage";
+import NavbarTop from "./components/NavbarTop.jsx";
+import React from "react";
+
+import Home from "./components/pages/Home.jsx";
+import AboutMe from "./components/pages/AboutMe.jsx";
+import Projects from "./components/pages/Projects.jsx";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
 function App() {
   const [darkMode, setDarkMode] = useLocalStorage(false);
@@ -23,26 +24,14 @@ function App() {
 
   return (
     <>
-      <div className={darkMode ? "dark-mode" : "light-mode"}>
-        <NavbarTop darkMode = {darkMode}/>
-        <Container className="mt-5">
-          <WelcomeContent />
-        </Container>
-        <HomeContent />
-        <Posts darkMode={darkMode}/>
-        <Button onClick={toggleDarkMode} variant={darkMode ? "dark" : "light"} className="floating-button"
-          style={{transition: "opacity 250ms ease-in-out, transform 250ms ease-in-out"}}
-        >
-          <i
-            className={darkMode ? "bi bi-moon-fill" : "bi bi-brightness-high-fill"}
-            style={{
-              transition: "opacity 250ms ease-in-out, transform 600ms ease-in-out",
-              transform: darkMode ? "rotate(0deg)" : "rotate(180deg)",
-              opacity: darkMode ? 1 : 0.8,
-            }}
-          ></i>
-        </Button>
-      </div>
+      <Router>
+        <NavbarTop darkMode={darkMode}/>
+        <Routes>
+          <Route path="/" element={<Home darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>} />
+          <Route path="/about-me" element={<AboutMe darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>} />
+          <Route path="/projects" element={<Projects darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>} />
+        </Routes>
+      </Router>
     </>
   );
 }
