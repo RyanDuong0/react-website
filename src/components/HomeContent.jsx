@@ -9,7 +9,6 @@ function HomeContent() {
       <Row className="align-items-center">
         <Col md={3}>
           <h1 className="text-start display-6" style={{ fontSize: "1.3rem"}}>
-            Latest Posts
           </h1>
         </Col>
       </Row>

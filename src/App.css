@@ -5,6 +5,11 @@ html, body {
   padding: 0;
 }
 
+.display-6{
+  font-family: "Quicksand", sans-serif;
+}
+
+
 /* Apply the max-width and centering to the #root */
 #root {
   max-width: 1280px;

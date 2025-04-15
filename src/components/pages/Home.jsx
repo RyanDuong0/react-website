@@ -9,11 +9,9 @@ import ThemeButton from "../ThemeButton.jsx";
 function Home({ darkMode, toggleDarkMode }) {
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
-      <NavbarTop darkMode={darkMode} />
       <WelcomeContent />
       <HomeContent />
       <Posts darkMode={darkMode} />
-      <ThemeButton darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
     </div>
   );
 }

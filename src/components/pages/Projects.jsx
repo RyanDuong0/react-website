@@ -6,8 +6,6 @@ function Projects({darkMode, toggleDarkMode}){
   return(
     <>
       <WelcomeContent />
-      <NavbarTop darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
-      <ThemeButton darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
     </>
   );
 }
