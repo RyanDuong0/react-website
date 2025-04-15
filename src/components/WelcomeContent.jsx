@@ -11,7 +11,7 @@ function WelcomeContent() {
         <Col md={3} className="ps-0 text-start">
           <Avatar
             alt="Profile Picture"
-            src="../../img/profilepicture.jpg"
+            src="../img/profilepicture.jpg"
             sx={{ width: 185, height: 175, pointerEvents: "none" }}
           />
         </Col>
