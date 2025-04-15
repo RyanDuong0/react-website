@@ -10,9 +10,7 @@ function Home({ darkMode, toggleDarkMode }) {
   return (
     <div className={darkMode ? "dark-mode" : "light-mode"}>
       <NavbarTop darkMode={darkMode} />
-      <Container className="mt-5">
-        <WelcomeContent />
-      </Container>
+      <WelcomeContent />
       <HomeContent />
       <Posts darkMode={darkMode} />
       <ThemeButton darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>

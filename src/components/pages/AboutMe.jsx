@@ -1,10 +1,11 @@
 import NavbarTop from "../NavbarTop.jsx";
-import Container from "react-bootstrap/Container";
 import ThemeButton from "../ThemeButton.jsx";
+import WelcomeContent from "../WelcomeContent.jsx";
 
 function AboutMe({darkMode, toggleDarkMode}){
   return(
     <>
+      <WelcomeContent />
       <NavbarTop darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
       <ThemeButton darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
     </>

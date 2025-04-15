@@ -16,8 +16,8 @@ function NavbarTop({ darkMode }) {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
-            <Nav.Link as={Link} to="about-me">About Me</Nav.Link>
-            <Nav.Link as={Link} to="projects">Projects</Nav.Link>
+            <Nav.Link as={Link} to="/about-me">About Me</Nav.Link>
+            <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
             <NavDropdown title="Links" id="basic-nav-dropdown">
               <NavDropdown.Item href="https://www.linkedin.com/in/ryan-duong-97b960328/">LinkedIn&nbsp;<i class="bi bi-linkedin"></i></NavDropdown.Item>
               <NavDropdown.Item href="https://github.com/RyanDuong0">GitHub&nbsp;<i class="bi bi-github"></i></NavDropdown.Item>
