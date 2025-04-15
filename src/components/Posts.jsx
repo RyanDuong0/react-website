@@ -9,7 +9,7 @@ function Posts({darkMode}){
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    fetch("public/posts.json") // Adjust path as needed
+    fetch("../../public/posts.json")
       .then((res) => res.json())
       .then((data) => setPosts(data))
       .catch((err) => console.error("Failed to load posts:", err));
