@@ -2,31 +2,31 @@
     {
       "title":"KCS x NUCATS Hackathon 2024",
       "description":"Hackathon hosted by Kerridge Commercial Systems and Newcastle University's Computing and Technology Society",
-      "image":"img/kcs.jpg",
+      "image":"./img/kcs.jpg",
       "link":"https://www.linkedin.com/posts/ryan-duong-97b960328_proud-to-share-a-project-my-team-and-i-built-activity-7309636134614036480-9Q-D?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFK5F28BwZ30UvRm9ztBbqi7s7EPRvi-r3o"
     },
     {
         "title": "Devpost Durhack 2024",
         "description": "A Devpost project created for the Durhack hackathon in November 2024, centered around the theme of space exploration and innovation.",
-        "image": "img/devpost_img.jpeg",
+        "image": "./img/devpost_img.jpeg",
         "link": "https://www.linkedin.com/posts/ryan-duong-97b960328_im-happy-to-share-this-durhack-2024-project-activity-7259915478054096896-5qYI"
     },
     {
         "title": "Durhack 2024",
         "description": "Attended Durhack 2024, one of the largest hackathons in Europe, which brought together talented developers, designers, and innovators.",
-        "image": "img/durhack_img.jpeg",
+        "image": "./img/durhack_img.jpeg",
         "link": "https://www.linkedin.com/posts/ryan-duong-97b960328_day-1-of-durhack-down-one-more-to-go-me-activity-7258745585296404480-bHN_"
     },
     {
         "title": "NCL In Action",
         "description": "NCL in Action 24/25 is a year-long program at Newcastle University exploring AI's impact on industries, careers, and global challenges.",
-        "image": "img/ncl_in_action_img.jpeg",
+        "image": "./img/ncl_in_action_img.jpeg",
         "link": "https://www.linkedin.com/posts/ryan-duong-97b960328_day-1-of-durhack-down-one-more-to-go-me-activity-7258745585296404480-bHN_"
     },
     {
         "title": "BSides NCL",
         "description": "BSides NCL is a free, one-day conference for the local information security community. It is a place to learn, share, and discuss the latest security trends.",
-        "image": "img/bsides_ncl_img.jpeg",
+        "image": "./img/bsides_ncl_img.jpeg",
         "link":"https://www.linkedin.com/posts/ryan-duong-97b960328_today-i-had-the-opportunity-to-attend-an-activity-7248409430768107520-7Prd"
     }
   ]
