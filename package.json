@@ -21,12 +21,12 @@
     "motion": "^12.6.5",
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.9",
+    "react-chrono": "^2.7.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.5.0",
     "react-timeline-animation": "^1.2.3",
     "react-type-animation": "^3.2.0",
     "react-typed": "^2.0.12",
-    "react-under-construction": "^0.3.0",
     "use-local-storage": "^3.0.0"
   },
   "devDependencies": {
