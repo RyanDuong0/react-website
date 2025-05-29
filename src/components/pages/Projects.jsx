@@ -1,18 +1,14 @@
 import Container from "react-bootstrap/Container";
 import React, { useState } from "react";
+import Timeline from "../Timeline.jsx";
 
-function Projects({ darkMode }) {
+function Projects({ darkMode, toggleDarkMode }) {
     return (
         <>
             <div className={darkMode ? "dark-mode" : "light-mode"}>
                 <Container className="mt-5">
                     <div className={darkMode ? "dark-mode" : "light-mode"}>
-                        <div style={{ paddingTop: 300 }}>
-                            <h1 style={{ fontFamily: "Quicksand, sans-serif" }}>:(</h1>
-                            <h1 style={{ fontFamily: "Quicksand, sans-serif" }}>
-                                This webpage is under construction
-                            </h1>
-                        </div>
+                        <Timeline darkMode={darkMode} />
                     </div>     
                 </Container>
             </div>

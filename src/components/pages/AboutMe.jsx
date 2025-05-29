@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-function AboutMe({ darkMode }) {
+function AboutMe({ darkMode, toggleDarkMode }) {
     return (
         <>
             <WelcomeContent />
@@ -33,12 +33,12 @@ function AboutMe({ darkMode }) {
                                 fontWeight: 500,
                             }}
                         >
-                            I am currently a student at Newcastle University working towards a
-                            BSc in Computer Science and I am actively seeking internships and
+                            I am currently a student at <strong> Newcastle University </strong>
+                            working towards a <strong>BSc in Computer Science</strong> and I am actively seeking internships and
                             work experience to help refine my skills and to gain new skills
                             that are vital to Software Engineering. During my four years of
-                            experience, I have picked up languages such as C#, Python, Java
-                            and SQL and have even completed a project using C# and SQL
+                            experience, I have picked up languages such as <strong>C#, Python, Java
+                            and SQL</strong> and have even completed a project using C# and SQL
                             recently, which deepened my understanding of software development
                             methodologies.
                         </p>
@@ -70,21 +70,18 @@ function AboutMe({ darkMode }) {
                                 fontWeight: 500,
                             }}
                         >
-                            SAgE Student Ambassador <br /> Current student ambassador for the
-                            School of Computing.SAgE Student Ambassador <br /> Current student
-                            ambassador for the School of Computing.
-                        </p>
-                        <p
-                            className={darkMode ? "dark-mode" : "light-mode"}
-                            style={{
-                                fontFamily: "Quicksand, sans-serif",
-                                fontStyle: "normal",
-                                fontWeight: 500,
-                            }}
-                        >
-                            Virtual Work Experience Day Pathway CTM <br /> Tech, Digital and
-                            IT virtual work experience day where I engaged with companies
-                            including: Sky, Sage, GCHQ and Microsoft.
+                            <strong> SAgE Student Ambassador </strong> <br />
+                            <ul>
+                                <li> 
+                                Represented the school of computing at university events, <strong>supporting outreach,
+                                recruitment, and engagement activities</strong> to promote STEM disciplines to prospect
+                                ive students.
+                                </li>
+                                <li>
+                                Collaborated with academic staff and peers to deliver <strong>campus tours</strong>,
+                                 enhancing communication and public speaking skills while fostering a welcoming university environment.
+                                </li>
+                            </ul>
                         </p>
                     </Col>
                 </Row>
@@ -114,7 +111,7 @@ function AboutMe({ darkMode }) {
                                 fontWeight: 500,
                             }}
                         >
-                            AIG - Shields Up: Cybersecurity Job Simulation
+                            <strong> AIG - Shields Up: Cybersecurity Job Simulation </strong>
                         </p>
                         <ul
                             className={darkMode ? "dark-mode" : "light-mode"}
@@ -126,7 +123,7 @@ function AboutMe({ darkMode }) {
                         >
                             <li>
                                 Completed a cybersecurity threat analysis simulation for the
-                                Cyber Defense Unit, staying updated on CISA publications.
+                                <strong>Cyber Defense Unit</strong>, staying updated on <strong>CISA</strong> publications.
                             </li>
                             <li>
                                 Researched and understood reported vulnerabilities, showcasing
@@ -137,7 +134,7 @@ function AboutMe({ darkMode }) {
                                 vulnerability remediation.
                             </li>
                             <li>
-                                Utilized Python skills to write a script for ethical hacking,
+                                Utilized <strong>Python</strong> skills to write a script for <strong>ethical hacking</strong>,
                                 avoiding ransom payments by bruteforcing decryption keys.
                             </li>
                         </ul>

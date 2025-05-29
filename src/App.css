@@ -19,7 +19,7 @@ body {
 }
 
 .dark-mode {
-  background-color: #061a40 !important;
+  background-color: #202023 !important;
   color: #dadff7 !important;
   transition:
     background-color 250ms ease-in-out,
@@ -52,7 +52,7 @@ body {
 }
 
 .navbar-custom-dark {
-  background-color: #061a40;
+  background-color: #202023;
   transition:
     background-color 250ms ease-in-out,
     color 250ms ease-in-out;
@@ -79,7 +79,7 @@ body {
 }
 
 .card-dark {
-  background-color: #1a1a2e !important;
+  background-color: #121212 !important;
   color: #dadff7 !important;
   border: none;
   transition:
@@ -99,4 +99,12 @@ body {
 }
 .floating-button:hover {
   box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.vertical-timeline-element-date {
+  /* Try to move the date left (for left-aligned content) */
+  right: 0;
+  text-align: left;
+  min-width: unset;     /* Allow the date to fit its content */
+  width: auto;
 }

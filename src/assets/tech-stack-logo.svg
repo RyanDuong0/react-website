@@ -1,0 +1,94 @@
+<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+<style>
+.bg { fill: #FAF8F5; }
+@media (prefers-color-scheme: dark) {
+    .bg { fill: #1e1e1e; }
+}
+.tech-label { font-family: 'Arial Black', Arial, sans-serif; font-weight: bold; font-size: 32px; fill: #fff; dominant-baseline: middle; text-anchor: middle; }
+.js-label { fill: #333; font-size: 56px; font-family: 'Arial Black', Arial, sans-serif; font-weight: bold; dominant-baseline: middle; text-anchor: middle; }
+</style>
+<!-- Background circle -->
+<circle cx="128" cy="128" r="124" class="bg" stroke="#2F3E48" stroke-width="8"/>
+<!-- Quadrant lines -->
+<line x1="128" y1="4" x2="128" y2="252" stroke="#2F3E48" stroke-width="8"/>
+<line x1="4" y1="128" x2="252" y2="128" stroke="#2F3E48" stroke-width="8"/>
+
+<!-- HTML Shield (top left) -->
+<g>
+<polygon points="60,40 108,40 116,96 84,112 52,96" fill="#E44D26"/>
+<polygon points="84,47 108,47 112,80 84,93 56,80 60,47" fill="#F16529"/>
+<text x="82" y="80" class="tech-label" font-size="28">HTML</text>
+</g>
+
+<!-- CSS Shield (top right) -->
+<g>
+<polygon points="196,40 148,40 140,96 172,112 204,96" fill="#1572B6"/>
+<polygon points="172,47 148,47 144,80 172,93 200,80 196,47" fill="#33AADD"/>
+<text x="174" y="80" class="tech-label" font-size="28">CSS</text>
+</g>
+
+<!-- Python logo (bottom left) -->
+<g>
+<!-- Blue half -->
+<path d="M52,148
+a24,24 0 0 1 24,-24
+h28
+a12,12 0 0 1 12,12
+v12
+h-28
+v8
+h40
+a16,16 0 0 1 16,16
+v20
+a24,24 0 0 1 -24,24
+h-28
+a12,12 0 0 1 -12,-12
+v-12
+h28
+v-8
+h-40
+a16,16 0 0 1 -16,-16
+v-20
+z"
+fill="#3776AB"
+/>
+<!-- Yellow half -->
+<path d="M120,204
+a24,24 0 0 0 24,-24
+v-20
+a16,16 0 0 0 -16,-16
+h-40
+v8
+h28
+v12
+a12,12 0 0 0 12,12
+h28
+a24,24 0 0 0 24,24
+h-28
+a12,12 0 0 0 -12,12
+v12
+h-28
+a16,16 0 0 0 -16,-16
+v-20
+z"
+fill="#FFD43B"
+/>
+<!-- Eyes -->
+<circle cx="72" cy="164" r="4" fill="#fff"/>
+<circle cx="112" cy="204" r="4" fill="#fff"/>
+</g>
+
+<!-- JS logo (bottom right, yellow quadrant + text) -->
+<g>
+<path d="M132,132
+h116
+a120,120 0 0 1 -120,120
+v-116
+z"
+fill="#F7DF1E"
+stroke="#F7DF1E"
+stroke-width="0"
+/>
+<text x="192" y="200" class="js-label">JS</text>
+</g>
+</svg>
