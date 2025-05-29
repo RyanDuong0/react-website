@@ -1,12 +1,24 @@
-# React + Vite
+# Ryan Duong's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! 🚀  
+🌐 [Visit Live Site](https://ryanduong.pages.dev/)
 
-Currently, two official plugins are available:
+This website showcases my projects, skills, and background as a developer, designer, and tech enthusiast. Built with modern web technologies and designed for performance and accessibility.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About Me
 
-## Expanding the ESLint configuration
+Hi, I'm Ryan Duong — a passionate developer. I am constantly learning new technologies to level up my skills.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- **Frontend:** React, JavaScript, HTML, CSS
+- **Deployment:** Cloudflare Pages / Vite
+- **Tools:** Neovim, Git, GitHub
+
+## Features
+
+- ⚡ Fast and responsive design
+- 🌙 Dark mode support
+- 🖥️ Interactive project showcases
+- 📱 Mobile-friendly layout
+- 🔗 Social media and resume links
