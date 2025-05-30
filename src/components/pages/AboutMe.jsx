@@ -122,8 +122,7 @@ function AboutMe({ darkMode, toggleDarkMode }) {
                             }}
                         >
                             <li>
-                                Completed a cybersecurity threat analysis simulation for the
-                                <strong>Cyber Defense Unit</strong>, staying updated on <strong>CISA</strong> publications.
+                                Completed a cybersecurity threat analysis simulation for the <strong>Cyber Defense Unit</strong>, staying updated on <strong>CISA</strong> publications.
                             </li>
                             <li>
                                 Researched and understood reported vulnerabilities, showcasing
