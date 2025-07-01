@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://RyanDuong0.github.io/react-website",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
