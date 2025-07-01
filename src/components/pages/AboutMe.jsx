@@ -38,7 +38,7 @@ function AboutMe({ darkMode, toggleDarkMode }) {
                             work experience to help refine my skills and to gain new skills
                             that are vital to Software Engineering. During my four years of
                             experience, I have picked up languages such as <strong>C#, Python, Java
-                            and SQL</strong> and have even completed a project using C# and SQL
+                                and SQL</strong> and have even completed a project using C# and SQL
                             recently, which deepened my understanding of software development
                             methodologies.
                         </p>
@@ -70,19 +70,35 @@ function AboutMe({ darkMode, toggleDarkMode }) {
                                 fontWeight: 500,
                             }}
                         >
-                            <strong> SAgE Student Ambassador </strong> <br />
+                            <strong> Treasurer of NUCATS </strong> <br />
                             <ul>
-                                <li> 
-                                Represented the school of computing at university events, <strong>supporting outreach,
-                                recruitment, and engagement activities</strong> to promote STEM disciplines to prospect
-                                ive students.
-                                </li>
                                 <li>
-                                Collaborated with academic staff and peers to deliver <strong>campus tours</strong>,
-                                 enhancing communication and public speaking skills while fostering a welcoming university environment.
+                                    Current Treasurer of <strong>NUCATS</strong> (Newcastle University Computing And Technology Society)
                                 </li>
                             </ul>
                         </p>
+                        <p
+                            className={darkMode ? "dark-mode" : "light-mode"}
+                            style={{
+                                fontFamily: "Quicksand, sans-serif",
+                                fontStyle: "normal",
+                                fontWeight: 500,
+                            }}
+                        >
+                            <strong> SAgE Student Ambassador </strong> <br />
+                            <ul>
+                                <li> 
+                                    Represented the school of computing at university events, <strong>supporting outreach,
+                                        recruitment, and engagement activities</strong> to promote STEM disciplines to prospect
+                                    ive students.
+                                </li>
+                                <li>
+                                    Collaborated with academic staff and peers to deliver <strong>campus tours</strong>,
+                                    enhancing communication and public speaking skills while fostering a welcoming university environment.
+                                </li>
+                            </ul>
+                        </p>
+
                     </Col>
                 </Row>
             </Container>
