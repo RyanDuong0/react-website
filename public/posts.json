@@ -7,13 +7,6 @@
     },
 
     {
-        "title":"'Step Up' Experian Live Online Career Challenge (Python)",
-        "description":"Sucessfully completed Experian Live Online Career Challenge, where I worked on a real-world data science problem focused on identifying mule accounts.",
-        "image":"./img/digdataPost.jpg",
-        "link":"https://www.linkedin.com/posts/ryan-duong-97b960328_python-dataanalytics-experian-activity-7339268051281846272-240r?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFK5F28BwZ30UvRm9ztBbqi7s7EPRvi-r3o"
-    },
-
-    {
         "title":"Portfolio Website",
         "description":"The updated site highlights my programming portfolio with a modernised design, and a more intuitive user experience. Built using React, it features smooth navigation and showcases my projects in a clean and professional layout.",
         "image":"./img/linkedinWebsitePost.jpg",
