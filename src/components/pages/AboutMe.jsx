@@ -196,7 +196,7 @@ function AboutMe({ darkMode, toggleDarkMode }) {
                 vulnerability remediation.
               </li>
               <li>
-                Utilized <strong>Python</strong> skills to write a script for{" "}
+                Utilised <strong>Python</strong> skills to write a script for{" "}
                 <strong>ethical hacking</strong>, avoiding ransom payments by
                 bruteforcing decryption keys.
               </li>
